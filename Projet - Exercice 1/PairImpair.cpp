@@ -1,4 +1,4 @@
-//But : Écrire un programme pouvant déterminer si un nombre est pair ou impair.
+//But : Ã‰crire un programme pouvant dÃ©terminer si un nombre est pair ou impair.
 //Auteur: Anthony Beauregard
 //Date : 2020-09-08
 
@@ -12,19 +12,20 @@ int main()
  //Notre variable
 	int nombre;
 
-//Notre variable de résultat
+//Notre variable de rÃ©sultat
 	int resultat;
 
-	//On demande à l'utilisateur d'entrer un nombre entier
+	//On demande Ã  l'utilisateur d'entrer un nombre entier
 
 	std::cout << " Veuillez entrer un nombre entier : ";
 	//L'utilisateur tape son nombre
 	std::cin >> nombre; 
-	//On divise le nombre par deux pour savoir si il est pair ou impair et on le stocke dans la variable résultat
+	//On divise le nombre par deux pour savoir si il est pair ou impair et on le stocke dans la variable rÃ©sultat
 	resultat = nombre % 2;
 
-	//On utilise If/Else pour comparer le résulat. Si la réponse est égale a zéro, le nombre est pair. Sinon, il est impair. De plus, l'utilisateur en sera informé.
+	//On utilise If/Else pour comparer le rÃ©sulat. Si la rÃ©ponse est Ã©gale a zÃ©ro, le nombre est pair. Sinon, il est impair. De plus, l'utilisateur en sera informÃ©.
 
+	// KM : Je prÃ©fÃ¨re que l'accolade soit sur une nouvelle ligne, si possible
 	if (resultat == 0) {
 		std::cout << " Le nombre " << nombre << " est un nombre pair.";
 
@@ -38,6 +39,7 @@ int main()
 	return 0;
 
 	/*Plan de tests
+	// KM : Penser Ã  mettre la valeur 0 et des nombres nÃ©gatifs
 	* 
 	* 
 	* 152 : "Le nombre 152 est un nombre pair."
