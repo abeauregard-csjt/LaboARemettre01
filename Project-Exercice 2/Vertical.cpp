@@ -1,4 +1,4 @@
-//But : créé un programme qui détermine si le nombre entré contient 5 chiffres et qui les affichent verticalement
+//FR : But : crÃ©Ã© un programme qui dÃ©termine si le nombre entrÃ© contient 5 chiffres et qui les affichent verticalement
 //Auteur : Anthony Beauregard
 //Date : 2020/09/08
 
@@ -14,9 +14,9 @@ int main()
 	int nombre1;
 
 
-	//On demande a l'utilisateur d'entrer un nombre à 5 chiffres.
+	//FR : On demande a l'utilisateur d'entrer un nombre Ã  5 chiffres.
 
-	std::cout << " Veuillez entrer un nombre à cinq chiffres : ";
+	std::cout << " Veuillez entrer un nombre Ã  cinq chiffres : ";
 
 	//L'utilisateur entre le nombre
 
@@ -28,25 +28,29 @@ int main()
 
 	if (nombre1 >= 10000)
 	{
-		std::cout << nombre1 << "\n" << "Le reste je sais pas comment faire désolé, j'attend de voir en cours." << "\n";
+		// KM : Il faut un autre test ici pour s'assurer que le nombre ne dÃ©passe pas 5 chiffres
+		
+		
+		// KM : C'est parfait ici de ne pas y passer des heures. Tu as fait l'essentiel du devoir
+		std::cout << nombre1 << "\n" << "FR : Le reste je sais pas comment faire dÃ©solÃ©, j'attend de voir en cours." << "\n";
 		
 			
 
 
 
 	}
-	//Sinon, le message qui suit lui sera affiché
+	//Sinon, le message qui suit lui sera affichÃ©
 
 	else
-
+		
 		std::cout << "Le nombre ne contient pas 5 chiffres";
 
 
-
+	// KM : Il faut Ã©toffer davantage le plan de tests
 	//Plan de tests
 	/* 
 	
-	Nombre1     Résultat
+	Nombre1     RÃ©sultat
 	56565         56565
 	
 
